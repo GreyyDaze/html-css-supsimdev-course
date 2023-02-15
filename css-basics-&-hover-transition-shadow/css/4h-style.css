@@ -1,0 +1,27 @@
+.back-btn {
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #b1aaaa;
+    border-width: 1.5px
+}
+
+a{
+    margin-right: 7px;
+}
+
+.next-btn {
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #b1aaaa;
+    border-width: 1.5px
+}
