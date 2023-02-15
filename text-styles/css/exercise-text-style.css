@@ -1,0 +1,194 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tahoma-style {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+.learning-page {
+    font-family: Verdana;
+}
+
+.course-title {
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.level {
+    color: #969696;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.course-description {
+    font-size: 13px;
+    width: 230px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.get-started {
+    background-color: #377e22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sale-section {
+    font-family: Arial;
+}
+
+.sale-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.end-time {
+    font-style: italic;
+    color: #cf1616;
+    font-size: 14px;
+}
+
+.business-section {
+    font-family: Arial;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+
+.link {
+    color: #64749b;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.macbook-page {
+    font-family: Arial;
+    text-align: center;
+}
+
+.new-item {
+    color: #cf1616;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 1px;
+
+}
+
+.specification {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price-range {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    background-color: #386fcf;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.trade-page {
+    font-family: Arial;
+}
+
+.trade-amount{
+    color: #888585;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.money {
+    color: black;
+    font-weight: weight;
+    font-size: 24px;
+    margin-right: 3px;
+}
+
+.expected-increase {
+    color: #7b9e80;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.expected-decrease {
+    color: #888585;
+    font-size: 12px;
+}
+
+.subtract-amount {
+    color:#b60f0f97;
+}
+
+.twitter-page {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.tweet-header {
+    margin-bottom: 6px;
+}
+
+.tweet-author {
+    font-weight: bold;
+}
+
+.tweet-info {
+    color: #888585;
+    margin-left: 4px;
+    font-weight: normal;
+}
+
+.tweet-para1 {
+    width: 420px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.tweet-para2 {
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+.userhandle {
+    color: #6a8db0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
