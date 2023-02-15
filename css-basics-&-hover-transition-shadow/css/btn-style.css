@@ -1,0 +1,149 @@
+button {
+    vertical-align: top;
+}
+
+.uber-btn {
+    background-color: black;
+    color: white;
+    /* height: 36px;
+    width: 108px; */
+    cursor: pointer;
+    transition: opacity 0.15s;
+    padding-left: 15px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+
+.uber-btn:hover {
+    opacity: 0.6;
+}
+
+.amazon-btn {
+    background-color: #ffd74c;
+    /* height: 30px;
+    width: 160px; */
+    border: none;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.amazon-btn:hover {
+    background-color: #f5c201;
+}
+
+.github-btn {
+    background-color: #27a55e;
+    color: white;
+    /* height: 36px;
+    width: 92px; */
+    border: none;
+    cursor: progress;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: box-shadow 0.15s;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px
+}
+
+.github-btn:hover {
+    box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-btn {
+    background-color: #8a65bc;
+    color:white;
+    /* height: 40px;
+    width: 120px; */
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: wait;
+    transition: background-color 0.15s;
+    padding-left: 18px;
+    padding-right: 22px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+
+}
+
+.bootstrap-btn:hover {
+    background-color: #6a4f94;
+}
+
+.bsdownload-btn {
+    background-color: white;
+    color: #7c8087;
+    border-color: #a6aab0;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-left: 7px;
+    /* height: 40px;
+    width: 107px; */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.bsdownload-btn:hover {
+    background-color: #7c8087;
+    border-color: #7c8087;
+    color: white;
+    opacity: 0.7;
+}
+
+.linkedin-btn {
+    background-color: #3c82be;
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 210px; */
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.15s;
+    padding-left: 16px;
+    padding-right: 19px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.linkedin-btn:hover {
+    background-color: #002e67;
+}
+
+.ldsave-btn {
+    background-color: white;
+    color: #075ea7;
+    border-style: solid;
+    border-color: #7e9bbc;
+    /* height: 36px;
+    width: 70px; */
+    border-radius: 18px;
+    margin-left: 10px;
+    cursor: wait;
+    font-weight: 600;
+    transition: background-color 0.15s;
+    padding-left: 18px;
+    padding-right: 17px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+
+.ldsave-btn:hover {
+    background-color: #e1e4ea;
+}
