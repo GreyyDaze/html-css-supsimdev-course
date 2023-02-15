@@ -1,0 +1,136 @@
+.cat-basicprop {
+    width: 200px;
+    border-radius: 9px;
+}
+
+.cat-objfit {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.round-cat {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: -47px;
+}
+
+.search-box {
+    width: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px;
+    font-size: 12px; 
+}
+
+.google-search-box {
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 18px;
+    font-size: 11px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.linkedin-signup-page{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.email-label {
+    color: #747172;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 6px;
+    margin-left: 1px;
+}
+
+.email-input {
+    width: 210px;
+    padding-left: 7px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-color: #555555;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-bottom: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.policy {
+    color: #555555;
+    font-family: Arial;
+    font-size: 8.5px;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
+
+.agree-join-btn {
+    background-color: #25539b;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 18px;
+}
+
+.twitter-home-page {
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: -14px;
+    border-radius: 26px;
+}
+
+.tweet-box {
+    border: none;
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 12px;
+    margin-left: 3px;
+    width: 260px;
+}
+
+.tweet-btn {
+    background-color: #448cd6;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
