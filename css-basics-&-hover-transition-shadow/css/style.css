@@ -1,0 +1,89 @@
+/* 
+ hover, transition & shadow 
+ & CSS Box Model 
+*/
+button {
+  vertical-align: top;
+}
+
+.subscribe-btn {
+  background-color: #cc0000 ;
+  color: white;
+  border: none;
+  /* height: 37px;
+    width: 108px; 
+    if the content of the element is increased the content might 
+    overflow because of fixed height and width but this problem 
+    does not occur with CSS box model
+    */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.15s; /* 0.15s good transition time */
+}
+
+/* hover: when pointer is place on element */
+.subscribe-btn:hover {
+  opacity: 0.7;
+}
+
+/* active: when the element is clicked */
+.subscribe-btn:active {
+  opacity: 0.4;
+}
+
+.join-btn {
+  background-color: white;
+  color: #0061d3;
+  /* height: 37px;
+    width: 63px; */
+  border-radius: 2px;
+  border-color: #0061d3;
+  border-style: solid;
+  cursor: pointer;
+  border-width: 1px;
+  margin-left: 8px;
+  transition: background-color 0.15s, color 0.15s;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.join-btn:hover {
+  background-color: #0061d3;
+  color: white;
+}
+
+.join-btn:active {
+  opacity: 0.65;
+}
+
+.tweet-btn {
+  background-color: #009ef0;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  /* height: 35px;
+    width: 75px; */
+  border-radius: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: box-shawdow 0.15s;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.tweet-btn:hover {
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.15); /*0.15 natural color for shadow*/
+}
+
+.tweet-btn:active {
+  opacity: 0.7;
+}
