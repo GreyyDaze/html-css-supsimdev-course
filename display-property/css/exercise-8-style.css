@@ -1,0 +1,154 @@
+/* Exercise 8a styles */
+.username {
+    margin-bottom: 10px;
+}
+
+.username, .user-email {
+    width: 170px;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Exercise 8b styles */
+.aside-para {
+    width: 210px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yes-btn {
+    background-color: rgb(54, 194, 54);
+    color: beige;
+    border-color: cornflowerblue;
+    border-radius: 2px; 
+    cursor: pointer;
+    border-style: outset;
+}
+
+.no-btn {
+    background-color: tomato;
+    color: beige;
+    border-color: yellowgreen;
+    border-radius: 2px;
+    border-style: solid;
+    cursor: pointer;
+    border-style: outset;
+}
+
+.yes-btn:active, .no-btn:active {
+    border-style: solid;
+    border: none;
+}
+
+/* Exercise 8c styles */
+.google-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.google-searchbox {
+    display: block;
+    margin: auto;
+    width: 430px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Exercise 8d styles */
+[class ~="signup-input"] {
+    border-radius: 6px;
+    border-style: solid;   
+    border-color: #d4d4d4;
+    font-size: 15px; 
+    margin-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+.first-name, .last-name {
+    width: 110px;
+    padding-left: 12px;
+    padding-right: 7px;
+}
+
+.email {
+    display: block;
+    width: 240px;
+    padding-left: 12px;
+    padding-right: 15px;   
+}
+
+.signup-btn {
+    background-color: #0079eb;
+    color: white;
+    text-align: center;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Exercise 8e styles */
+.title {
+    font-family: Arial;
+    font-size: 31px;
+    margin-bottom: 20px;
+}
+
+[class ~= uber-request-input] {
+    display: block;
+    width: 290px;
+    border: none;
+    background-color: #f0efef;
+    padding-left: 18px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.pickup-location {
+    margin-bottom: 7px;
+}
+
+.destination {
+    margin-bottom: 25px;
+}
+
+.uber-btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+}
+
+.request-btn {
+    padding-left: 18px;
+    padding-right: 19px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+}
+
+.schedule-btn {
+    padding-left: 20px;
+    padding-right: 21px;
+}
