@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>YouTube.com Clone</title>
-        <link rel="stylesheet" href="css/youtube-clone-style.css">
-    </head>
-    <body>
-        <input type="text" placeholder="Search" class="search-box">
-        <img src="thumbnails/thumbnail-1.webp" class="thumbnail">
+
+<head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="css/youtube-clone-style.css" />
+</head>
+
+<body>
+    <input type="text" placeholder="Search" class="search-box" />
+
+    <!--
+        div is a container that is used to group elements and the main advantage 
+        is that other block level element only take width of the container so that
+        we can place other elements beside it
+    -->
+
+    <div class="video-preview">
+        <img src="thumbnails/thumbnail-1.webp" class="thumbnail" />
         <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
         </p>
-        <p class="video-author">
-            Marques Brownlee
+        <p class="video-author">Marques Brownlee</p>
+        <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    </div>
+
+    <div class="video-preview">
+        <img src="thumbnails/thumbnail-2.webp" class="thumbnail" />
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
         </p>
-        <p class="video-stats">
-            3.4M views &#183; 6 months ago
-        </p>
-    </body>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">19M views &#183; 4 years ago</p>
+    </div>
+</body>
+
 </html>

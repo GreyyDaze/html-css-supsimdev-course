@@ -1,10 +1,11 @@
 .thumbnail {
     width: 300px;
     display: block;
+
 }
 
 .search-box {
-
+    display: block;
 }
 
 .video-title {
@@ -17,4 +18,11 @@
 
 .video-stats {
    
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }
