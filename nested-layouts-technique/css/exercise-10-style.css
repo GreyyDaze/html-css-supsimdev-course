@@ -1,0 +1,89 @@
+/* Exercise 10a */
+.twitter-users {
+    width: 585px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c8c8c8;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 7px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.display-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 43px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+.profile-info {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 170px;
+  
+}
+
+.styled-elements {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.username, 
+.user-bio,
+.user-category {
+    width: 190px;
+}
+.username {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.user-bio,
+.user-category {
+    color: #8e8e8e;
+
+}
+
+.user-bio {
+    margin-bottom: 4px;
+    font-size: 23px;   
+}
+
+.user-category {
+    font-size: 20px;
+}
+
+.follow-btn {
+    background-color: #0094f0;
+    color: white;
+    border: none;
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    vertical-align: top;
+    margin-top: 21px;
+
+}
+    
+/* Exercise 10b */
+.user-1, .user-2 {
+    margin-bottom: 20px;
+
+}
+    
+/* Exercise 10c */
+
+/* Exercise 10d */
+
+    
