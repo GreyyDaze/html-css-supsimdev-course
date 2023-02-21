@@ -1,3 +1,10 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* img */
 .thumbnail {
     width: 300px;
     display: block;
@@ -8,21 +15,59 @@
     display: block;
 }
 
+/* p */
 .video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    width: 250px;
+    line-height: 19px;
+    margin-bottom: 11px;
+}
 
+/* p */
+.video-author, 
+.video-stats {
+    font-size: 12px;
+    color: #606060;
 }
 
 .video-author {
-
+    margin-bottom: 4px;
 }
 
-.video-stats {
-   
-}
-
+/* main outside div */
 .video-preview {
     width: 300px;
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
+}
+
+/* div class */
+.channel-cover-image {
+    display: inline-block;
+    /* by deafult div have 100% width of container to customize its size(to make them appear beside each other)
+    use(decrease) width property*/
+    width: 50px;
+    vertical-align: top;
+}
+
+/* image by default overflow, as it keeps its dimension which causes it to overflow */
+/* img class */
+.channel-picture {
+    width: 80%;
+    border-radius: 50%;    
+}
+
+/* inside div class */
+.video-info {
+    display: inline-block;
+    width: 200px;
+
+}
+
+/* outside vertical div */
+.video-channel-info {
+    margin-top: 16px;
 }
