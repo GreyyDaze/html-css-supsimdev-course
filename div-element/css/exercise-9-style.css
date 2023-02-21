@@ -167,8 +167,10 @@ p{
 }
 
 .google-logo {
-    display: block;
+    /* display: inline-block;
     margin: auto;
+    in centre without this
+    */
     margin-bottom: 11px; 
 }
 
