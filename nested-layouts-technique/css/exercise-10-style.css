@@ -39,7 +39,8 @@
 .user-category {
     width: 190px;
 }
-.username {
+
+p.username {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 1px;
@@ -51,7 +52,7 @@
 
 }
 
-.user-bio {
+p.user-bio {
     margin-bottom: 4px;
     font-size: 23px;   
 }
@@ -60,6 +61,7 @@
     font-size: 20px;
 }
 
+p
 .follow-btn {
     background-color: #0094f0;
     color: white;
@@ -83,7 +85,125 @@
 }
     
 /* Exercise 10c */
+.youtube-videos {
+    background-color: rgb(249 249 249);
+    width: 594px;
+    padding-left: 14px;
+    padding-right: 3px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-left: 40px;
+}
+
+.video-preview {
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.video-snapshot {
+    width: 280px;
+    height: 152px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.video-info {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+
+p.video-title {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 500;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.video-author,
+.video-stats {
+    color: #7e7e7e;
+    font-size: 18px;
+}
+
+p.video-author {
+    margin-bottom: 8px;
+}
 
 /* Exercise 10d */
+.fb-friend-recommendation {
+    display: inline-block;
+    box-shadow: 1px 1px 3px 1.5px rgba(0, 0, 0, 0.18);
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
 
+.dp {
+    display: inline-block;
+    margin-bottom: 12px; 
+}
+
+.profile-pic {
+    width: 250px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fb-user-info {
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+
+p.fb-username {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.fb-styled-elements {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mutual-friends-box {
+    margin-bottom: 12px;
+}
+
+.friends-dp {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 18px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+p.mutual-friends {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 19px;
+    color: #4b4949;
+}
+
+button.add-friend {
+    background-color: #0077e9;
+    color: white;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+}
     
